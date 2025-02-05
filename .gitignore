@@ -38,4 +38,4 @@ build/
 .DS_Store
 
 ###MV settings###
-mvn/settings.xml
+/mvn/settings.xml
