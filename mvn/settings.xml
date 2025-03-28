@@ -3,8 +3,8 @@
         <server>
             <!-- Id has to match the id provided in pom.xml -->
             <id>reposilite-repository-DeiutzEntertainment</id>
-            <username>user</username>
-            <password><secret></secret></password>
+            <username>${env.SECRET_REPOSITORY_USER}</username>
+            <password>${env.SECRET_REPOSITORY}</password>
         </server>
     </servers>
-</settings>rew
+</settings>

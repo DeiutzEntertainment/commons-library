@@ -6,12 +6,18 @@
 
     <groupId>ro.deiutzentertainment</groupId>
     <artifactId>commons-library</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.3</version>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+
+        <lombok_version>1.18.34</lombok_version>
+        <gson_version>2.10.1</gson_version>
+
+
     </properties>
 
     <distributionManagement>
@@ -21,5 +27,18 @@
             <url>http://192.168.1.130:9999/DeiutzEntertainment</url>
         </repository>
     </distributionManagement>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${lombok_version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>${gson_version}</version>
+        </dependency>
+    </dependencies>
 
 </project>
