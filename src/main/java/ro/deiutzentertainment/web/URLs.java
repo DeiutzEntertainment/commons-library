@@ -2,7 +2,7 @@ package ro.deiutzentertainment.web;
 
 public abstract class URLs {
 
-    public static final String HOSTNAME = "http://deiutz.go.ro";   //"http://host.docker.internal";
+    public static final String HOSTNAME = "http://"+System.getenv("server-hostname");   //"http://host.docker.internal";
     /**====================FCIS============================*/
 
     public static final String GET_IMAGE = HOSTNAME + ":" + ServerType.FCIS.getPort() + ServerType.FCIS.getRoot() + "user/profil/image/id";

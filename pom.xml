@@ -6,7 +6,7 @@
 
     <groupId>ro.deiutzentertainment</groupId>
     <artifactId>commons-library</artifactId>
-    <version>1.0.3.31</version>
+    <version>1.0.3.32</version>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -24,7 +24,7 @@
         <repository>
             <id>reposilite-repository-DeiutzEntertainment</id>
             <name>Reposilite Repository</name>
-            <url>http://192.168.1.130:9999/DeiutzEntertainment</url>
+            <url>http://jdeiutz.go.ro:9999/DeiutzEntertainment</url>
         </repository>
     </distributionManagement>
 
