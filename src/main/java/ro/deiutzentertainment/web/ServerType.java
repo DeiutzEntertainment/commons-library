@@ -4,7 +4,7 @@ import lombok.Getter;
 
 public enum ServerType {
 
-    FCUH(8000, "/FCUH/"),
+    FCUH(8003, "/FCUH/"),
     FCIS(8001, "/FCIS/"),
     FCSessionManager(8002,"/FCSM/");
 
